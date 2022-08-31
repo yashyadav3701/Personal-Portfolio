@@ -176,7 +176,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("Personal-Portfolio/images/bg4.jpg") center center/cover no-repeat;
+    background: url("/Personal-Portfolio/images/bg4.jpg") center center/cover no-repeat;
     height: 100vh;
     color: #fff;
     min-height: 500px;
