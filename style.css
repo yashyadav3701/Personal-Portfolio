@@ -87,7 +87,6 @@ section .title::after{
     scale:1.2;
 }
 
-
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -643,14 +642,35 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .social{
+        flex-wrap: wrap;
+    }
+    .home .images{
+        position: absolute;
+         right: 8%;
+         top: 15%;
+        height: 30rem;
+         width: 22rem;
+    }
 }
+
 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
+        .home .images{
+            position: absolute;
+             right: 6%;
+             top: 30%;
+            height: 20rem;
+             width: 14rem;
+        }
 }
 @media (max-width: 947px){
+    .home .images{
+        display: none;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
